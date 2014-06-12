@@ -1,13 +1,13 @@
 notro/rpi-build-test
 ==========
 
-Linux kernel release 3.12.21+ with builtin IPv6 support for the Raspberry Pi.
+Linux kernel release 3.15.0+ with builtin IPv6 support for the Raspberry Pi.
 
 Install
 -------
 
 ```text
-sudo REPO_URI=https://github.com/notro/rpi-build-test rpi-update
+sudo REPO_URI=https://github.com/notro/rpi-build-test BRANCH=latest rpi-update
 ```
 
 
@@ -21,7 +21,7 @@ Sources
 -------
 * [raspberrypi/tools](https://github.com/raspberrypi/tools/archive/108317fde2ffb56d1dc7f14ac69c42f34a49342a.tar.gz)
 * [raspberrypi/firmware](https://github.com/raspberrypi/firmware/archive/e45a4a25cd6ec19912de3310194ebaf8f02676f6.tar.gz)
-* [raspberrypi/linux](https://github.com/raspberrypi/linux/archive/342abe67d0e1f12eae17562bfe7615143d2618d1.tar.gz)
+* [raspberrypi/linux](https://github.com/raspberrypi/linux/archive/959a708cea1c7e044032bd7e904e72dcf0a51db4.tar.gz)
 
 
 Patches
